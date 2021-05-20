@@ -1,0 +1,16 @@
+FILES=files2install
+DESTDIR=installdir
+
+all:
+		# compile commands
+
+help:
+		# help messages
+		@echo "make - Build sources"
+
+source:
+		# compile commands
+
+install:
+		# install commands
+		mv $(FILES) $(DESTDIR)
